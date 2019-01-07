@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        html {
+            font-size: 20px;
+        }
+
+        .button.green {
+            background-color: green;
+        }
+
+        .button.red {
+            background-color: red;
+        }
+
+        .button {
+            padding: .3rem .8rem;
+            border: 1px solid #446d88;
+            background: #58a linear-gradient(hsla(0, 0%, 100%, .2), transparent);
+            border-radius: .2rem;
+            box-shadow: 0 .05rem 0.25rem;
+            color: white;
+            text-shadow: 0 .05rem .05rem rgba(0, 0, 0, .2);
+            font-size: 125%;
+            line-height: 1.5;
+        }
+
+        ul {
+            --accent-color: red;
+        }
+
+        ol {
+            --accent-color: blue;
+        }
+
+        li {
+            background: var(--accent-color);
+        }
+
+
+    </style>
+</head>
+
+<body>
+
+<Button class="button">Yes!!</Button>
+
+<Button class="button green">Yes!!</Button>
+
+<Button class="button red">Yes!!</Button>
+
+<ul>
+    <li>无序列表1</li>
+    <li>无序列表2</li>
+</ul>
+<ol>
+    <li>有序列表1</li>
+    <li>有序列表2</li>
+</ol>
+
+
+</body>
+</html>
